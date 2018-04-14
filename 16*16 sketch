@@ -1,0 +1,19 @@
+#include <gamma.h>
+#include <RGBmatrixPanel.h>
+#include <Adafruit_GFX.h>
+
+// define the wiring of the LED screen
+const uint8_t CLK  = 8;
+const uint8_t LAT = A3;
+const uint8_t OE = 9;
+const uint8_t A = A0;
+const uint8_t B = A1;
+const uint8_t C = A2;
+
+// Matrice Dimensions
+const uint8_t MAT_WIDTH = 32;
+const uint8_t MAT_HEIGHT = 16;
+
+// define the wiring of the inputs
+const int POTENTIOMETER_PIN_NUMBER = 5;
+const int BUTTON_PIN_NUMBER = 10;
